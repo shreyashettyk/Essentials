@@ -1,0 +1,16 @@
+Steps to create a virtual environment in vscide jupyter notebook
+
+
+
+STEP-1 CREATE A VIRTUAL ENVIRONMENT - python3 -m venv my_virtual_env
+STEP-2 NAVIGATE TO THE SCRIPTS FOLDER WITHIN THE VIRTUAL ENV FOLDER AND RUN .\activate
+STEP-3 pip3 install ipykernel
+STEP-4 python3 -m ipykernel install --user --name=myproject_kernel
+STEP-5 jupyter notebook
+Step-6 Select the right kernel with the name myproject_kernel
+STEP-7 install the required packages within your env
+
+
+CREDITS - 
+https://medium.com/@claudia.nikel/how-to-setup-a-jupyter-notebook-in-vs-code-w-virtual-env-kernels-install-packages-884cf643375e
+
