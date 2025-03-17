@@ -1,0 +1,3 @@
+uvicorn file_name:app --reload ->start application
+uvicorn file_name:app --port 8001 -> move to diffrent port 
+fastapi run filename.py (or) fastapi dev filename.py -> to run the application
